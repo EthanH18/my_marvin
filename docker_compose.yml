@@ -1,0 +1,19 @@
+
+version: '3'
+
+services:
+  jenkins:
+    privileged: true
+    build: .
+    image: emnify/jenkins-casc:latest
+    env_file:
+      - 
+    volumes:
+      - 
+    ports:
+      - 
+    environment:
+      USER_CHOCOLATEEN_PASSWORD: "lopes"
+      USER_VAUGIE_G_PASSWORD: "lopes"
+      USER_I_DONT_KNOW_PASSWORD: "lopes"
+      USER_NASSO_PASSWORD: "lopes" 
